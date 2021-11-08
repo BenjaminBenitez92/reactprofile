@@ -14,3 +14,35 @@
   flex-direction: column;
   flex: 1;
 }
+
+.myself {
+  width: 300px;
+}
+
+.image {
+  min-height: 150px;
+  max-height: 150px;
+  background-size: cover;
+  border: 3px solid black;
+  margin-bottom: 10px;
+  width: 55%;
+}
+.projectOne{
+  background-image: url("../../images/pro1.png");
+}
+.project3 {
+  background-image: url("../../images/pro2.png");
+}
+.projecttwo {
+  background-image: url("../../images/pro3.png");
+  
+}
+.project4 {
+  background-image: url("../../images/pro4.png");
+}
+.project5 {
+  background-image: url("../../images/pro5.png");
+}
+.project6 {
+  background-image: url("../../images/pro6.png");
+}

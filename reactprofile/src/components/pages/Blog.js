@@ -1,24 +1,44 @@
 import React from 'react';
+import "./style.css";
 
 export default function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h1>Work</h1>
+      <p> here is some of my work click on the picture to see the live app or click on the github-repostory to see that </p>
+      <div>
+        <h2> coderefactor </h2>
+        <li><a href="https://github.com/BenjaminBenitez92/coderefactor-">github-repostory</a></li> 
+    <a href="https://benjaminbenitez92.github.io/coderefactor-/">
+                    <div class="image projectOne"></div>
+                </a>
+                </div>
+        
+          <h2> Heroscope Project</h2>
+          <li><a href="https://github.com/LukeMcM89/Project-Horoscope">github-repostory</a></li> 
+          <a href="https://lukemcm89.github.io/Project-Horoscope/">
+                    <div class=" image project3"></div>
+                </a>
+                <h2>PPE Charity Store</h2>
+                <li><a href="https://github.com/BenjaminBenitez92/Project2_PPE_Charity_OnlineStore">github-repostory</a></li> 
+                <a href="https://charity-store.herokuapp.com/">
+                    <div class="image projecttwo"></div>
+                </a>
+                <h2>Note Taker</h2>
+                <li><a href="https://github.com/BenjaminBenitez92/note-taker">github-repostory</a></li> 
+                <a href="https://intense-sands-08895.herokuapp.com/">
+                    <div class="image project4"></div>
+                </a>
+                <h2>Weather API</h2>
+                <li><a href="https://github.com/BenjaminBenitez92/weatherapi">github-repostory</a></li> 
+                <a href="https://benjaminbenitez92.github.io/weatherapi/">
+                    <div class="image project5"></div>
+                </a>
+                <h2>Workday Schedule</h2>
+                <li><a href="https://github.com/BenjaminBenitez92/hw-05-Daily-Schedule">github-repostory</a></li> 
+                <a href="https://benjaminbenitez92.github.io/hw-05-Daily-Schedule/">
+                    <div class="image project6"></div>
+                </a>
     </div>
   );
 }
